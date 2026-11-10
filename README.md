@@ -1,7 +1,6 @@
 # Garden App
 
-A small Python command-line guide that suggests gardening activities by month.
-This repository demonstrates an issue-based Git workflow with two focused improvements.
+A Python command-line guide that suggests gardening activities by month and hemisphere.
 
 ## Run
 
@@ -9,11 +8,12 @@ This repository demonstrates an issue-based Git workflow with two focused improv
 python garden_advice.py
 ```
 
-Enter a month from 1 to 12.
+Enter a month from 1 to 12, then choose north or south. Press Enter to use the northern hemisphere.
 
-## Planned improvements
+## Tests
 
-1. Extract season and advice lookup into reusable functions and data mappings.
-2. Validate month and hemisphere input, then add automated tests.
+```console
+python -m unittest discover -v
+```
 
-Run the tests with `python -m unittest discover -v` after the improvements are applied.
+The project includes reusable season and advice lookups, input validation, hemisphere-specific seasons, and automated unit tests.
