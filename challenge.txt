@@ -1,0 +1,6 @@
+Optional open-source challenge
+
+Issue: https://github.com/arrafipd/frakment/issues/33
+Pull request: https://github.com/arrafipd/frakment/pull/36
+
+As of the last status check on 10 November 2026, the PR was open for maintainer review. The docs diff check passed. The project build could not be run because dependency installation did not complete in the task environment. Check the PR link for its current review and check status.
